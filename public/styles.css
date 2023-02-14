@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+h2 {
+    font-family: capitolium-news-2, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+h3 {
+    font-family: capitolium-news-2, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: capitolium-2, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+h5 {
+    font-family: capitolium-2, serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p {
+    font-family: capitolium-news-2, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+section {
+    margin: 5vh auto;
+    width: 40vw;
+    max-width: 1500px;
+}
+
+.button {
+    display: block;
+    font-family: capitolium-news-2, serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    background-color: #D9D9D9;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0 1rem auto;
+}
+
+.button:hover {
+    color: white;
+    background-color: #A6A6A6;
+}
+
+#contact table{
+    margin: 0 auto;
+}
+
+#contact td:first-child {
+    text-align: center;
+}
+
+#contact span {
+    font-size: 2rem;
+}
+
+#contact a {
+    font-family: capitolium-news-2, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.home_btn {
+    background-color: #A6A6A6;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 3vh;
+    left: 3vw;
+}
+
+.home_btn:hover {
+    background-color: #D9D9D9;
+}
+
+.home_btn:hover a {
+    color: black;
+}
+
+.home_btn a {
+    color: white;
+}

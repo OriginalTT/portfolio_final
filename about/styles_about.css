@@ -1,0 +1,32 @@
+.charts {
+    margin: 10vh 0;
+}
+
+.charts td {
+    border-bottom: solid 1px black;
+}
+
+.charts tr:last-child td {
+    border: none;
+}
+
+.charts td {
+    font-family: capitolium-news-2, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 1rem 0.5rem;
+}
+
+.charts li {
+    margin: 0.5rem 0;
+}
+
+.year {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
